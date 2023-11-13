@@ -15,7 +15,7 @@ from functions.openai_requests import convert_audio_to_text, get_chat_response
 from functions.text_to_speech import convert_text_to_speech
 from fastapi import Depends, FastAPI, HTTPException
 
-SECRET_KEY = "439c1b9ad8b3636d32bcf785ecce2bf7361cc523dacb7ecafa0f3888937029ab"
+SECRET_KEY = ""
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
